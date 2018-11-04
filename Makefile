@@ -1,6 +1,5 @@
-# Airflow
-SHELL := /bin/bash 
-version =  1.10.0
+SHELL := /bin/bash
+version =  0.28.1
 name = superset
 full_name = $(name)-$(version)
 
@@ -28,3 +27,4 @@ rpm:
 	  --define "_sourcedir  %{_topdir}/rpmbuild/SOURCES" \
 	  --define "VERSION $(version)" \
 	  -ba $(name).spec
+

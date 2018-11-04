@@ -1,1 +1,1 @@
-PYTHONPATH=/usr/share/superset:$PYTHONPATH
+PYTHONPATH=/usr/share/superset/lib:$PYTHONPATH

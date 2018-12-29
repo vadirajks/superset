@@ -14,7 +14,7 @@ BuildRequires:  cyrus-sasl-devel
 BuildRequires:	gcc-c++
 BuildRequires:	python2-pip
 AutoReqProv: 	no
-Requires:       python36u
+Requires:       python36
 Packager:       xianhua wei <xianhuawei.zhcn@gmail.com>
 
 %description
